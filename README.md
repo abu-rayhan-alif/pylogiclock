@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-F5BD02?style=for-the-badge)](LICENSE)
 [![PyPI](https://img.shields.io/badge/install-pylogiclock-006DAD?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/pylogiclock/)
-[![GitHub](https://img.shields.io/badge/GitHub-repo-24292F?style=for-the-badge&logo=github)](https://github.com/abu-rayhan-alif/logiclock)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-24292F?style=for-the-badge&logo=github)](https://github.com/abu-rayhan-alif/pylogiclock)
 
 Keep rule definitions, decorator metadata, and implementation logic aligned across Python projects.
 
@@ -36,8 +36,8 @@ logiclock graph tests/fixtures/sample_module.py --output flow.mmd
 ## Quickstart (15 minutes, local dev)
 
 ```bash
-git clone https://github.com/abu-rayhan-alif/logiclock.git
-cd logiclock
+git clone https://github.com/abu-rayhan-alif/pylogiclock.git
+cd pylogiclock
 pip install -e ".[dev]"
 logiclock scan .
 logiclock conflicts --advanced
@@ -231,7 +231,7 @@ See `examples/README.md` for full index.
 | First scan is slow | run `logiclock scan .` again (cache improves subsequent runs) |
 | ANSI colors in CI logs | use `logiclock --no-color ...` |
 
-Issues: [GitHub Issues](https://github.com/abu-rayhan-alif/logiclock/issues)
+Issues: [GitHub Issues](https://github.com/abu-rayhan-alif/pylogiclock/issues)
 
 ---
 

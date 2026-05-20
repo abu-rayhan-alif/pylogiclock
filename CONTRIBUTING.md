@@ -5,8 +5,8 @@ Thanks for contributing to `logiclock`.
 ## Development Setup
 
 ```bash
-git clone https://github.com/abu-rayhan-alif/logiclock.git
-cd logiclock
+git clone https://github.com/abu-rayhan-alif/pylogiclock.git
+cd pylogiclock
 pip install -e ".[dev]"
 ```
 

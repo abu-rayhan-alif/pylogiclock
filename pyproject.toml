@@ -30,9 +30,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/abu-rayhan-alif/logiclock"
-Repository = "https://github.com/abu-rayhan-alif/logiclock"
-Issues = "https://github.com/abu-rayhan-alif/logiclock/issues"
+Homepage = "https://github.com/abu-rayhan-alif/pylogiclock"
+Repository = "https://github.com/abu-rayhan-alif/pylogiclock"
+Issues = "https://github.com/abu-rayhan-alif/pylogiclock/issues"
 
 [project.scripts]
 logiclock = "logiclock.cli:app"
